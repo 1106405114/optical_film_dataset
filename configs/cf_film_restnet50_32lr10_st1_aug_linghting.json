@@ -21,7 +21,7 @@
                 "key":"input"
                  }],
             "num_samples": 3360,
-            "image_folder": "datasets/film/film32_lr10_train"
+            "image_folder": "datasets/film/film32_lr10_st1_train"
         },
         "test": {
             "name": "ds_steel",
@@ -37,7 +37,7 @@
                 "key":"input"
                  }],
             "num_samples": 2176,
-            "image_folder": "datasets/film/film32_lr10_test"
+            "image_folder": "datasets/film/film32_lr10_st1_test"
         }
     },
     "meters": {
