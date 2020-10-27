@@ -1,0 +1,61 @@
+{
+    "name": "classification_task",
+    "use_gpu": true,
+    "num_epochs": 2,
+    "loss": {
+        "name": "CrossEntropyLoss"
+    },
+    "dataset": {
+        "train": {
+            "name": "ds_steel",
+            "batchsize_per_replica": 8,
+            "use_shuffle": true,
+            "transforms":
+                [{
+                "name": "apply_transform_to_key",
+                "transforms":[
+                    {"name": "ToTensor"}
+                    ],
+                "key":"input"
+                 }],
+            "num_samples": 4336,
+            "image_folder": "datasets/steels/train"
+        },
+        "test": {
+            "name": "ds_steel",
+            "batchsize_per_replica": 8,
+            "use_shuffle": false,
+            "transforms":
+                [{
+                "name": "apply_transform_to_key",
+                "transforms":[
+                    {"name": "ToTensor"}
+                    ],
+                "key":"input"
+                 }],
+            "num_samples": 1424,
+            "image_folder": "datasets/steels/test"
+        }
+    },
+    "meters": {
+        "accuracy": {
+            "topk": [1]
+        }
+    },
+    "model": {
+        "name": "m_base",
+        "num_classes":9
+    },
+    "optimizer": {
+        "name": "sgd",
+        "param_schedulers": {
+            "lr": {
+                "name": "step",
+                "values": [0.1, 0.01]
+            }
+        },
+        "weight_decay": 1e-4,
+        "momentum": 0.9
+    }
+
+}

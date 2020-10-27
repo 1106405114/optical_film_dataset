@@ -1,0 +1,75 @@
+{
+    "name": "classification_task",
+    "use_gpu": true,
+    "num_epochs": 200,
+    "loss": {
+        "name": "CrossEntropyLoss"
+    },
+    "dataset": {
+        "train": {
+            "name": "ds_film",
+            "batchsize_per_replica": 32,
+            "use_shuffle": true,
+            "transforms":
+                [{
+                "name": "apply_transform_to_key",
+                "transforms":[
+                    {"name": "RandomHorizontalFlip"},
+                    {"name": "ToTensor"},
+                    {"name": "lighting"}
+                    ],
+                "key":"input"
+                 }],
+            "num_samples": 3360,
+            "image_folder": "datasets/film/film128_v2_train"
+        },
+        "test": {
+            "name": "ds_steel",
+            "batchsize_per_replica": 32,
+            "use_shuffle": false,
+            "transforms":
+                [{
+                "name": "apply_transform_to_key",
+                "transforms":[
+                    {"name": "ToTensor"},
+                    {"name": "lighting"}
+                    ],
+                "key":"input"
+                 }],
+            "num_samples": 2176,
+            "image_folder": "datasets/film/film128_v2_test"
+        }
+    },
+    "meters": {
+        "accuracy": {
+            "topk": [1]
+        }
+    },
+    "model": {
+        "name": "resnet",
+        "num_blocks": [3, 4, 6, 3],
+        "small_input": false,
+        "zero_init_bn_residuals": true,
+        "heads": [
+          {
+            "name": "fully_connected",
+            "unique_id": "default_head",
+            "num_classes": 5,
+            "fork_block": "block3-2",
+            "in_plane": 2048
+          }
+        ]
+    },
+    "optimizer": {
+        "name": "sgd",
+        "param_schedulers": {
+            "lr": {
+                "name": "step",
+                "values": [0.1, 0.01]
+            }
+        },
+        "weight_decay": 1e-4,
+        "momentum": 0.9
+    }
+
+}
