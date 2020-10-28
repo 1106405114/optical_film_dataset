@@ -1,5 +1,12 @@
-# optical_film_dataset
-Optical Film Dataset
+# Inteligent Defect Detection System
+<br>
+
+<h1 align="center">OPTICAL FILM DATASET</h1>
+<br>
+<h2>Image Acquisition System</h2>
+<img src="https://github.com/1106405114/optical_film_dataset/blob/main/img/camera.png" />
+<img src="https://github.com/1106405114/optical_film_dataset/blob/main/img/camera_real.png" />
+
 <h2>Type of Defects</h2>
 <h5>Line 1: Normal (non-defective)</h5>
 <h5>Line 2: Black</h5>
