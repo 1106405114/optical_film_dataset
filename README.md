@@ -1,7 +1,7 @@
 # optical_film_dataset
 Optical Film Dataset
 <h2>Type of Defects</h2>
-<h3>Line 1: Normal (non-defective)</h3>
+<h4>Line 1: Normal (non-defective)</h4>
 <h3>Line 2: Black</h3>
 <h3>Line 3: Dust</h3>
 <h3>Line 4: TakeOff</h3>
