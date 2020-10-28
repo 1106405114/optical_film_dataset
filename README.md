@@ -26,4 +26,26 @@
 </p>
 <br>
 <h2>3. Classification Results</h2>
+<h3>3.1 Method 1:</h3>
+<h4>Test Accurancy</h4>
+<p align="center">
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_test_methods.png"/>
+<br>
+
+<h4>Train Accurancy</h4>
+<p align="center">
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_train_methods.png"/>
+
+<h3>3.2 Method 2:</h3>
+<p align="center">
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_test_st5.png"/>
+<br>
+
+<h4>Train Accurancy</h4>
+<p align="center">
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_train_st5.png"/>
+
+</p>
+
+
 
