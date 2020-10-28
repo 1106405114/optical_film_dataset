@@ -5,7 +5,7 @@
 <br>
 <h2>Image Acquisition System</h2>
 <img src="https://github.com/1106405114/optical_film_dataset/blob/main/img/camera.png" />
-<img src="https://github.com/1106405114/optical_film_dataset/blob/main/img/camera_real.png" />
+<img src="https://github.com/1106405114/optical_film_dataset/blob/main/img/camera_real.png" width="554" height="739" />
 
 <h2>Type of Defects</h2>
 <h5>Line 1: Normal (non-defective)</h5>
