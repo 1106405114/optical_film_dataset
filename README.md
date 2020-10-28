@@ -34,16 +34,16 @@
 
 <h4>Train Accurancy</h4>
 <p align="center">
-<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_train_methods.png"/>
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_train_method.png"/>
 
 <h3>3.2 Method 2:</h3>
 <p align="center">
-<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_test_st5.png"/>
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_test_5st.png"/>
 <br>
 
 <h4>Train Accurancy</h4>
 <p align="center">
-<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_train_st5.png"/>
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_train_5st.png"/>
 
 </p>
 
