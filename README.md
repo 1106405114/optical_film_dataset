@@ -28,7 +28,7 @@
 
 <h2> 3. Labeling Data</h2>
 <p align="center">
-<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/num_of_labels.png" width="572" height="702" />
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/num_of_labels.png" width="452" height="372" />
 </p>
 <br>
 
