@@ -25,8 +25,16 @@
 <img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/defect_fix.png" width="572" height="702" />
 </p>
 <br>
-<h2>3. Classification Results</h2>
-<h3>3.1 Method 1:</h3>
+
+<h2> 3. Labeling Data</h2>
+<p align="center">
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/num_of_labels.png" width="572" height="702" />
+</p>
+<br>
+
+
+<h2>4. Classification Results</h2>
+<h3>4.1 Method 1:</h3>
 <h4>Test Accurancy</h4>
 <p align="center">
 <img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_test_methods.png" width="389" height="261" />
@@ -36,7 +44,7 @@
 <p align="center">
 <img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_train_method.png" width="389" height="261" />
 
-<h3>3.2 Method 2:</h3>
+<h3>4.2 Method 2:</h3>
 <h4>Test Accurancy</h4>
 <p align="center">
 <img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/acc_test_5st.png"/>
