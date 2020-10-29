@@ -22,7 +22,7 @@
 <h5>Line 5: UnderGlue</h5>
 <h5>Line 6: Stains </h5>
 <p align="center">
-<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/defect_fix.png" width="572" height="702" />
+<img align="center" src="https://github.com/1106405114/optical_film_dataset/blob/main/img/defect_fix_labels.png" width="572" height="702" />
 </p>
 <br>
 
