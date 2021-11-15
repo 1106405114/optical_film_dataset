@@ -5,7 +5,7 @@
 # Sub Module:
 <h1 align="center">OPTICAL FILM DATASET</h1>
 <br>
-
+<a  href="https://docs.google.com/presentation/d/e/2PACX-1vSZPdwmGBvRdy-Pwn61D_OylXl8CBUy2DwqdwdPfExvksTS9Qs9T6uBPjtTRBe2WYwAnOUJfAsrqqX2/pub?start=false&loop=false&delayms=3000">Slide</a>
 <h2>1. Image Acquisition System</h2>
 <p align="center">
 <img src="https://github.com/1106405114/optical_film_dataset/blob/main/img/camera.png" />
